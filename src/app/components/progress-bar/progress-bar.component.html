@@ -1,0 +1,16 @@
+<div class="row justify-content-center">
+  <div class="col-md-12 col-sm-12 col-11 text-center">
+    <div class="progress rounded-0 shadow-sm">
+      <div
+        class="progress-bar bg-info"
+        role="progressbar"
+        aria-valuenow="value"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        [ngStyle]="{ width: value + '%' }"
+      >
+        <span class="progress-bar-text"><ng-content></ng-content></span>
+      </div>
+    </div>
+  </div>
+</div>

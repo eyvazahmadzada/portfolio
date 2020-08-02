@@ -1,0 +1,59 @@
+.fa {
+  font-size: 7em;
+  color: #C93B33;
+  padding: 20px;
+}
+
+section {
+  margin-top: -80px;
+}
+
+.btn-custom {
+  background-color: white;
+  color: black;
+  border: 2px solid #38A3B8;
+  padding: .375rem .75rem;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  transition: 0.5s;
+  border: 2px solid #38A3B8;
+  background-color: #343A40;
+  color: white;
+}
+
+.btn-custom:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  section {
+    margin-top: -75px;
+  }
+
+  button {
+    font-size: 1.1em;
+    padding: .325rem .65rem;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    margin-top: -70px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: .300rem .60rem;
+  }
+}

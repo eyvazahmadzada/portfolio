@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: white;
+  border: 1px solid gainsboro;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #38A3B8;
+}
+
+body {
+  margin: 0;
+  font-family: 'Overpass', "Helvetica Neue", sans-serif;
+}

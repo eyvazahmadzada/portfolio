@@ -1,0 +1,19 @@
+<div
+  class="card rounded-0 text-center mb-4 shadow"
+  [style.background-image]="'url(../../../assets/images/' + project.image + ')'"
+>
+  <div class="content">
+    <div class="card-header">
+      {{ project.name }}
+    </div>
+    <div class="card-body">
+      <p class="card-text">
+        {{ project.about }}
+      </p>
+      <div class="mb-3" style="color: #38a3b8;">{{ project.tech }}</div>
+      <a [href]="project.link" target="_blank" class="btn-custom rounded-0"
+        >Visit Site</a
+      >
+    </div>
+  </div>
+</div>

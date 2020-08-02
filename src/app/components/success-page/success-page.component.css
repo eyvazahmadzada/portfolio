@@ -1,0 +1,61 @@
+.fa {
+  font-size: 5em;
+  color: #428939;
+  border: 3px solid #428939;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+
+section {
+  margin-top: -80px;
+}
+
+.btn-custom {
+  background-color: #4EA049;
+  border: 2px solid #4EA049;
+  color: white;
+  padding: .375rem .75rem;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+}
+
+.btn-custom:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  section {
+    margin-top: -75px;
+  }
+
+  button {
+    font-size: 1.1em;
+    padding: .325rem .65rem;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    margin-top: -70px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: .300rem .60rem;
+  }
+}

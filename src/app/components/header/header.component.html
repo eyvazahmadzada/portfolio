@@ -1,0 +1,54 @@
+<header>
+  <nav
+    class="navbar shadow fixed-top navbar-expand-lg navbar-dark bg-dark animate__animated animate__fadeInDown"
+  >
+    <a class="navbar-brand" routerLink="/"
+      ><img src="../../assets/icons/logo.png" alt="logo" class="logo"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)="onDropdownToggle()"
+    >
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNavAltMarkup"
+      (click)="onItemSelect()"
+    >
+      <div class="navbar-nav">
+        <a
+          class="nav-item nav-link"
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >HOME</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLink="/about"
+          routerLinkActive="active"
+          >ABOUT</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLink="/portfolio"
+          routerLinkActive="active"
+          >PORTFOLIO</a
+        >
+        <a
+          class="nav-item nav-link"
+          routerLink="/contact"
+          routerLinkActive="active"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+  </nav>
+</header>
