@@ -20,7 +20,7 @@ export class PortfolioComponent {
       about:
         'A website to create, delete tasks, mark them as done when needed.',
       image: 'todo.png',
-      link: 'https://webtodoapp.netlify.app/',
+      link: 'https://web-todo-app.netlify.app/',
       tech: 'HTML, CSS, jQuery',
     },
     {
@@ -36,6 +36,13 @@ export class PortfolioComponent {
       image: 'internshipform.png',
       link: 'https://internship-offers.netlify.app/',
       tech: 'HTML, CSS, jQuery',
+    },
+    {
+      name: 'Rock, Paper & Scissors Game',
+      about: 'A basic website to play Rock, Paper & Scissors Game.',
+      image: 'rpsgame.png',
+      link: 'https://playrps.netlify.app/',
+      tech: 'HTML, CSS, JS',
     },
   ];
 }
