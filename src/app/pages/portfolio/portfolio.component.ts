@@ -8,48 +8,56 @@ import { Project } from '../../shared/project.model';
 })
 export class PortfolioComponent {
   projects: Project[] = [
-    {
-      name: 'Rock, Paper & Scissors Game',
-      about: 'A basic website to play Rock, Paper & Scissors Game.',
-      image: 'rpsgame.png',
-      link: 'https://playrps.netlify.app/',
-      tech: 'HTML, CSS, JS',
-    },
-    {
-      name: 'Car Game',
-      about: 'A basic website to play a fully responsive car racing game.',
-      image: 'cargame.png',
-      link: 'https://gamecar.netlify.app/',
-      tech: 'HTML, CSS, JS',
-    },
-    {
-      name: 'Ecommerce Website',
-      about: 'A basic ecommerce project with authentication feature.',
-      image: 'ecommerce.png',
-      link: 'https://web-ecommerce.netlify.app/',
-      tech: 'Angular 9',
-    },
-    {
-      name: 'To Do App',
-      about:
-        'A website to create, delete tasks, mark them as done when needed.',
-      image: 'todo.png',
-      link: 'https://web-todo-app.netlify.app/',
-      tech: 'HTML, CSS, jQuery',
-    },
-    {
-      name: 'Random Password Generator',
-      about: 'A basic website to generate random passwords with any length.',
-      image: 'passgenerator.png',
-      link: 'https://random-pass-generator.netlify.app/',
-      tech: 'HTML, CSS, JS',
-    },
-    {
-      name: 'Internship Form',
-      about: 'A website to get internship offers from companies.',
-      image: 'internshipform.png',
-      link: 'https://internship-offers.netlify.app/',
-      tech: 'HTML, CSS, jQuery',
-    },
+    new Project(
+      'Rock, Paper & Scissors Game',
+      'A basic website to play Rock, Paper & Scissors Game.',
+      'rpsgame.png',
+      'https://playrps.netlify.app/',
+      'HTML, CSS, JS'
+    ),
+
+    new Project(
+      'Car Game',
+      'A basic website to play a fully responsive car racing game.',
+      'cargame.png',
+      'https://gamecar.netlify.app/',
+      'HTML, CSS, JS'
+    ),
+    new Project(
+      'Netlist',
+      'A website to discover movies and tv series and add them to watchlist.',
+      'netlist.png',
+      'https://netlist.netlify.app/',
+      'Angular 10'
+    ),
+    // new Project(
+    //   'Ecommerce Website',
+    //   'A basic ecommerce project with authentication feature.',
+    //   'ecommerce.png',
+    //   'https://web-ecommerce.netlify.app/',
+    //   'Angular 9'
+    // ),
+    new Project(
+      'To Do App',
+
+      'A website to create, delete tasks, mark them as done when needed.',
+      'todo.png',
+      'https://web-todo-app.netlify.app/',
+      'HTML, CSS, jQuery'
+    ),
+    new Project(
+      'Random Password Generator',
+      'A basic website to generate random passwords with any length.',
+      'passgenerator.png',
+      'https://random-pass-generator.netlify.app/',
+      'HTML, CSS, JS'
+    ),
+    new Project(
+      'Internship Form',
+      'A website to get internship offers from companies.',
+      'internshipform.png',
+      'https://internship-offers.netlify.app/',
+      'HTML, CSS, jQuery'
+    ),
   ];
 }

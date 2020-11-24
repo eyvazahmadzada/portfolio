@@ -26,12 +26,10 @@ export class ContactComponent implements OnInit {
     this.contactService
       .sendMessage(userData)
       .then((res) => {
-        console.log(res);
         this.isLoading = false;
         this.router.navigate(['/success']);
       })
       .catch((error) => {
-        console.log(error);
         this.isLoading = false;
         this.router.navigate(['/error']);
       });
