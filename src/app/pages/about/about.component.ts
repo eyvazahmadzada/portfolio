@@ -12,18 +12,19 @@ export interface Skill {
 })
 export class AboutComponent {
   skills: Skill[] = [
-    { name: 'html', value: 90 },
-    { name: 'css', value: 90 },
-    { name: 'javascript', value: 80 },
-    { name: 'jquery', value: 50 },
+    { name: 'html', value: 95 },
+    { name: 'css', value: 95 },
+    { name: 'javascript', value: 90 },
     { name: 'bootstrap', value: 90 },
-    { name: 'angular', value: 80 },
-    { name: 'reactjs', value: 70 },
+    { name: 'angular', value: 90 },
+    { name: 'reactjs / redux', value: 90 },
+    { name: 'nextjs', value: 90 },
+    { name: 'react native', value: 80 },
+    { name: 'figma', value: 85 },
     { name: 'mysql', value: 80 },
-    { name: 'python', value: 65 },
+    { name: 'python', value: 75 },
     { name: 'c', value: 70 },
-    { name: 'java', value: 50 },
-    { name: 'git', value: 70 },
+    { name: 'git', value: 80 },
   ];
 
   onDownloadCV() {
