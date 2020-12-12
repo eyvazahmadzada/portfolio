@@ -1,6 +1,8 @@
 img {
-  width: 35%;
-  border: 2px solid #38A3B8;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #38a3b8;
+  background-color: white;
 }
 
 a {
@@ -14,14 +16,14 @@ a {
 .btn-custom {
   background-color: white;
   color: black;
-  border: 2px solid #38A3B8;
-  padding: .375rem .75rem;
+  border: 2px solid #38a3b8;
+  padding: 0.375rem 0.75rem;
 }
 
 .btn-custom:hover {
   transition: 0.5s;
-  border: 2px solid #38A3B8;
-  background-color: #343A40;
+  border: 2px solid #38a3b8;
+  background-color: #343a40;
   color: white;
 }
 
@@ -32,7 +34,8 @@ a {
 
 @media only screen and (max-width: 576px) {
   img {
-    width: 55%;
+    width: 200px;
+    height: 200px;
   }
 
   h3 {
@@ -45,13 +48,14 @@ a {
 
   button {
     font-size: 1em;
-    padding: .300rem .60rem;
+    padding: 0.3rem 0.6rem;
   }
 }
 
-@media screen and (min-width:577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   img {
-    width: 60%;
+    width: 250px;
+    height: 250px;
   }
 
   h3 {
@@ -60,6 +64,6 @@ a {
 
   button {
     font-size: 1.1em;
-    padding: .325rem .65rem;
+    padding: 0.325rem 0.65rem;
   }
 }
