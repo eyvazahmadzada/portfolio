@@ -45,13 +45,6 @@ export class PortfolioComponent {
       'HTML, CSS, JS'
     ),
     new Project(
-      'Random Password Generator',
-      'A basic website to generate random passwords with any length.',
-      'random-pass-generator.png',
-      'https://random-pass-generator.netlify.app/',
-      'HTML, CSS, JS'
-    ),
-    new Project(
       'Internship Form',
       'A website to get internship offers from companies.',
       'internship-offers.png',
