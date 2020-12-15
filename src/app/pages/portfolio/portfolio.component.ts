@@ -9,6 +9,13 @@ import { Project } from '../../shared/project.model';
 export class PortfolioComponent {
   projects: Project[] = [
     new Project(
+      'ASSMI Trans Logistics LLC',
+      'Multi-language and fully responsive website of a logistics company',
+      'assmilogistics.png',
+      'https://assmilogistics.com/',
+      'NextJS'
+    ),
+    new Project(
       'Netlist',
       'A website to discover movies & tv series and to add them to watchlist.',
       'netlist.png',
@@ -37,21 +44,6 @@ export class PortfolioComponent {
       'https://gamecar.netlify.app/',
       'HTML, CSS, JS'
     ),
-    // new Project(
-    //   'Ecommerce Website',
-    //   'A basic ecommerce project with authentication feature.',
-    //   'ecommerce.png',
-    //   'https://web-ecommerce.netlify.app/',
-    //   'Angular 9'
-    // ),
-    // new Project(
-    //   'To Do App',
-
-    //   'A website to create, delete tasks, mark them as done when needed.',
-    //   'todo.png',
-    //   'https://web-todo-app.netlify.app/',
-    //   'HTML, CSS, jQuery'
-    // ),
     new Project(
       'Random Password Generator',
       'A basic website to generate random passwords with any length.',
