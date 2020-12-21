@@ -30,6 +30,13 @@ export class PortfolioComponent {
       'ReactJS'
     ),
     new Project(
+      'MySKYL',
+      'A website to display, analyze and insert weather records.',
+      'myskyl.png',
+      'http://eyvazahmadzada12.alwaysdata.net/myskyl',
+      'PHP, MySQL'
+    ),
+    new Project(
       'Rock, Paper & Scissors Game',
       'A basic website to play Rock, Paper & Scissors Game.',
       'playrps.png',
@@ -43,13 +50,6 @@ export class PortfolioComponent {
       'gamecar.png',
       'https://gamecar.netlify.app/',
       'HTML, CSS, JS'
-    ),
-    new Project(
-      'Internship Form',
-      'A website to get internship offers from companies.',
-      'internship-offers.png',
-      'https://internship-offers.netlify.app/',
-      'HTML, CSS, jQuery'
     ),
   ];
 }

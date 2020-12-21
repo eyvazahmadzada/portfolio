@@ -22,6 +22,7 @@ export class AboutComponent {
     { name: 'react native', value: 80 },
     { name: 'figma', value: 85 },
     { name: 'mysql', value: 80 },
+    { name: 'php', value: 70 },
     { name: 'python', value: 75 },
     { name: 'c', value: 70 },
     { name: 'git', value: 80 },
