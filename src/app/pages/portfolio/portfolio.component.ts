@@ -33,7 +33,7 @@ export class PortfolioComponent {
       'MySKYL',
       'A website to display, analyze and insert weather records.',
       'myskyl.png',
-      'http://eyvazahmadzada12.alwaysdata.net/myskyl',
+      'http://myskyl.alwaysdata.net/myskyl',
       'PHP, MySQL'
     ),
     new Project(
