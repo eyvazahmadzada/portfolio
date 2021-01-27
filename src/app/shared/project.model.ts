@@ -4,6 +4,7 @@ export class Project {
     public about: string,
     public image: string,
     public link: string,
-    public tech: string
+    public tech: string,
+    public isIndividual: boolean,
   ) {}
 }

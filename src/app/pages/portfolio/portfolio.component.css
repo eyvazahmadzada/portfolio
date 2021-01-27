@@ -1,0 +1,24 @@
+.tabs {
+  display: inline-flex;
+  padding-bottom: 2rem;
+}
+
+.tabs a {
+  display: block;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  text-align: center;
+  border: 2px solid #38a3b8;
+  width: 150px;
+  margin: auto 0.5rem;
+}
+
+.tabs a:hover {
+  filter: brightness(90%);
+  transition: 0.4s;
+}
+
+.tabs a.active {
+  background-color: #38a3b8;
+  color: white;
+}
