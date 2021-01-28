@@ -1,24 +1,36 @@
 .tabs {
   display: inline-flex;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #38a3b8;
 }
 
-.tabs a {
-  display: block;
+.tabs button {
+  outline: none;
+  border: none;
   cursor: pointer;
   padding: 0.5rem 0;
   text-align: center;
-  border: 2px solid #38a3b8;
+  background-color: white;
   width: 150px;
-  margin: auto 0.5rem;
 }
 
-.tabs a:hover {
+.tabs button:hover {
   filter: brightness(90%);
   transition: 0.4s;
 }
 
-.tabs a.active {
+.tabs button.active {
   background-color: #38a3b8;
   color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .tabs {
+    margin-bottom: 1.5rem;
+  }
+
+  .tabs button {
+    padding: 0.4rem 0;
+    width: 120px;
+  }
 }

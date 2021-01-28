@@ -4,18 +4,20 @@
     class="row justify-content-center mt-2 animate__animated animate__fadeInLeft"
   >
     <div class="tabs">
-      <a
+      <button
+        type="button"
         [ngClass]="isIndividual ? 'active' : ''"
         (click)="onTabClicked($event)"
       >
         Individual
-      </a>
-      <a
+      </button>
+      <button
+        type="button"
         [ngClass]="isIndividual ? '' : 'active'"
         (click)="onTabClicked($event)"
       >
         Team
-      </a>
+      </button>
     </div>
     <div class="col-11 text-center">
       <div class="row">
