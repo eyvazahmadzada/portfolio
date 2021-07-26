@@ -23,7 +23,23 @@ export class PortfolioComponent implements OnInit {
       'A website to discover movies & tv series and to add them to watchlist.',
       'netlist.png',
       'https://netlist.netlify.app/',
-      'Angular 10',
+      'Angular',
+      true
+    ),
+    new Project(
+      'Codenames',
+      'A website for playing the game Codenames online',
+      'codenames.png',
+      'https://codenamesclient.vercel.app/',
+      'Figma (UI/UX Design), NextJS, Socket.IO',
+      true
+    ),
+    new Project(
+      'User Manager',
+      'A website for a user management system',
+      'u-manager.png',
+      'https://u-manager.netlify.app/',
+      'Angular, Reqres API',
       true
     ),
     new Project(
@@ -39,7 +55,7 @@ export class PortfolioComponent implements OnInit {
       'A website to display, analyze and insert weather records.',
       'myskyl.png',
       'http://eyvazahmadzada.alwaysdata.net/myskyl/',
-      'PHP, MySQL',
+      'HTML, CSS, JS, PHP, MySQL',
       true
     ),
     new Project(
@@ -50,7 +66,6 @@ export class PortfolioComponent implements OnInit {
       'HTML, CSS, JS',
       true
     ),
-
     new Project(
       'Car Game',
       'A basic website to play a fully responsive car racing game.',
@@ -59,6 +74,22 @@ export class PortfolioComponent implements OnInit {
       'HTML, CSS, JS',
       true
     ),
+    new Project(
+      'OBA Market',
+      'Website of the biggest market chain in Azerbaijan.',
+      'oba.png',
+      'https://obaz.az/',
+      'HTML, CSS, jQuery',
+      false
+    ),
+    new Project(
+      'FS Poster',
+      'Website of one of the most famous WordPress auto posters',
+      'fs-poster.png',
+      'https://fs-poster.com/',
+      'HTML, CSS, jQuery, Laravel',
+      false
+    )
   ];
 
   ngOnInit() {
@@ -69,7 +100,7 @@ export class PortfolioComponent implements OnInit {
     this.isIndividual = (e.target as Element).innerHTML.trim() === "Individual";
     this.filterProjects();
   }
-  
+
   filterProjects() {
     this.displayedProjects = this.projects.filter(project => project.isIndividual === this.isIndividual);
   }
