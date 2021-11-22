@@ -89,6 +89,14 @@ export class PortfolioComponent implements OnInit {
       'https://fs-poster.com/',
       'HTML, CSS, jQuery, Laravel',
       false
+    ),
+    new Project(
+      'Booknetic',
+      'Website of one of the most famous WordPress booking plugins',
+      'booknetic.png',
+      'https://fs-poster.com/',
+      'HTML, CSS, jQuery, Laravel',
+      false
     )
   ];
 
